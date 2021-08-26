@@ -10,16 +10,19 @@ body {
 /* header */
 header {
   width: 100%;
-  position: relative;
+  position: fixed;
+  overflow: hidden;
   display: flex;
   flex-direction: row;
   align-items: center;
   justify-content: space-between;
   box-shadow: 10px;
+  top: 0;
   background-color: #fff;
   padding: 5px 11px;
   box-shadow: 0 10px 15px -3px rgb(0 0 0 / 10%), 0 4px 6px -2px rgb(0 0 0 / 5%);
   height: 90px;
+  z-index: 2;
 }
 .foody {
   margin-left: 30px;
@@ -63,7 +66,7 @@ header {
   display: flex;
   align-items: center;
   justify-content: space-around;
-  margin-top: 5%;
+  margin-top: 9%;
 }
 .txt {
   margin-left: 10%;
@@ -336,9 +339,10 @@ li {
   margin-top: 5px;
   cursor: pointer;
 }
-@media only screen and (max-width: 640px) {
+@media only screen and (max-width: 670px) {
   .container1 {
     flex-direction: column;
+    margin-top: 35%;
   }
   .hero-image-container {
     margin-top: 10%;
@@ -360,7 +364,7 @@ li {
     flex-direction: column;
   }
   .text-primary {
-    color: black;
+    color: rgb(76, 77, 76);
   }
   #txt:before {
     display: none;
