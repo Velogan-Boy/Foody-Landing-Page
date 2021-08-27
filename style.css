@@ -339,7 +339,49 @@ li {
   margin-top: 5px;
   cursor: pointer;
 }
-@media only screen and (max-width: 670px) {
+@media only screen and (max-width: 1445px) {
+  .hero-image-container:before {
+    display: none;
+  }
+}
+@media only screen and (max-width: 1195px) {
+  .container1 {
+    margin-top: 20%;
+  }
+  .text-primary {
+    color: rgb(0, 0, 0);
+    font-size: 25px;
+  }
+  .hero-image-container:before {
+    display: none;
+  }
+  #txt:before {
+    display: none;
+  }
+  .update-txt:before {
+    display: none;
+  }
+  .download-txt:before {
+    display: none;
+  }
+  .restaurant-list-text:before {
+    display: none;
+  }
+  .restaurant1,
+  .restaurant3 {
+    margin: 0 5px;
+    width: 170px;
+    height: 110px;
+  }
+
+  .restaurant2,
+  .restaurant4 {
+    margin: 0 5px;
+    width: 200px;
+    height: 150px;
+  }
+}
+@media only screen and (max-width: 770px) {
   .container1 {
     flex-direction: column;
     margin-top: 35%;
