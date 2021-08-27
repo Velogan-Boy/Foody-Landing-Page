@@ -7,8 +7,8 @@
 body {
   background-color: #f6fff6;
 }
-/* header */
-header {
+/* header navbar*/
+.navbar {
   width: 100%;
   position: fixed;
   overflow: hidden;
@@ -37,7 +37,7 @@ header {
   justify-content: center;
   align-items: center;
 }
-.order {
+.btn-primary {
   background-image: linear-gradient(to right, #43e97b 0%, #38f9d7 100%);
   margin: 10px;
   padding: 15px 45px;
@@ -53,7 +53,7 @@ header {
   display: block;
 }
 
-.order:hover {
+.btn-primary:hover {
   background-position: right center;
   color: #fff;
   text-decoration: none;
@@ -62,7 +62,7 @@ header {
   letter-spacing: 3px;
 }
 /* hero image and text */
-.container1 {
+.hero-container {
   display: flex;
   align-items: center;
   justify-content: space-around;
@@ -102,7 +102,7 @@ header {
   border-radius: 5%;
 }
 /* youtube video section */
-.container2 {
+.yt-video-container {
   display: flex;
   flex-direction: row-reverse;
   justify-content: space-around;
@@ -313,7 +313,7 @@ header {
   cursor: pointer;
 }
 /*footer section*/
-footer {
+.footer {
   height: 180px;
   background: linear-gradient(to right, #43e97b 0%, #38f9d7 100%);
   margin-top: 10%;
@@ -330,7 +330,7 @@ footer {
   font-weight: 700;
   cursor: pointer;
 }
-li {
+.list ul li {
   list-style-type: none;
   color: white;
   font-size: 15px;
@@ -345,7 +345,7 @@ li {
   }
 }
 @media only screen and (max-width: 1195px) {
-  .container1 {
+  .hero-container {
     margin-top: 20%;
   }
   .text-primary {
@@ -382,7 +382,7 @@ li {
   }
 }
 @media only screen and (max-width: 770px) {
-  .container1 {
+  .hero-container {
     flex-direction: column;
     margin-top: 35%;
   }
@@ -402,7 +402,7 @@ li {
     height: 300px;
     width: 300px;
   }
-  .container2 {
+  .yt-video-container {
     flex-direction: column;
   }
   .text-primary {
@@ -418,7 +418,7 @@ li {
     height: 5rem;
     margin-left: -20%;
   }
-  .order {
+  .btn-primary {
     height: 35px;
     font-size: 13px;
     line-height: 12px;
@@ -489,14 +489,14 @@ li {
     font-size: 0.8rem;
     margin: auto;
   }
-  .order {
+  .btn-primary {
     margin: 6px;
     padding: 10px 15px;
   }
   .foody-foot {
     font-size: 30px;
   }
-  li {
+  .list ul li {
     font-size: 13px;
   }
 }
