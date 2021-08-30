@@ -27,17 +27,17 @@ body {
 .foody {
   margin-left: 30px;
 }
-.foody-logo {
+.foody__logo {
   height: 82px;
   width: 82px;
 }
 
-.log-sign {
+.log__sign {
   display: flex;
   justify-content: center;
   align-items: center;
 }
-.btn-primary {
+.btn__primary {
   background-image: linear-gradient(to right, #20b351, #8cec9c);
   margin: 10px;
   padding: 15px 45px;
@@ -53,7 +53,7 @@ body {
   display: block;
 }
 
-.btn-primary:hover {
+.btn__primary:hover {
   background-position: right center;
   color: #fff;
   text-decoration: none;
@@ -62,7 +62,7 @@ body {
   letter-spacing: 3px;
 }
 /* hero image and text */
-.hero-container {
+.hero__container {
   display: flex;
   align-items: center;
   justify-content: space-around;
@@ -73,18 +73,18 @@ body {
   font-size: 20px;
   color: rgba(25, 1, 112, 0.945);
 }
-.text-primary {
+.text__primary {
   font-size: 40px;
   color: white;
 }
 
-.hero-image-container {
+.hero__image__container {
   position: relative;
   height: 25rem;
   width: 40rem;
 }
 
-.hero-image-container:before {
+.hero__image__container:before {
   content: "";
   background-image: linear-gradient(to right, #20b351, #8cec9c);
   height: 25rem;
@@ -95,24 +95,24 @@ body {
   z-index: -2;
   border-radius: 5%;
 }
-.img-food {
+.img__food {
   height: 100%;
   width: 70%;
   margin-left: 20%;
   border-radius: 5%;
 }
 /* youtube video section */
-.yt-video-container {
+.yt__video__container {
   display: flex;
   flex-direction: row-reverse;
   justify-content: space-around;
   align-items: center;
   margin-top: 10%;
 }
-.food-ad {
+.food__ad {
   margin-top: 10%;
 }
-.video-food:before {
+.video__food:before {
   content: "";
   background-image: linear-gradient(to right, #20b351, #8cec9c);
   height: 330px;
@@ -135,12 +135,12 @@ body {
   border-radius: 5%;
 }
 /* food menu*/
-.food-list-container {
+.food__list__container {
   position: relative;
   margin: 5rem 0;
   padding-top: 18px;
 }
-.food-list-container-diagonal {
+.food__list__container__diagonal {
   background-image: linear-gradient(to right, #20b351, #8cec9c);
   position: absolute;
   left: 0px;
@@ -150,7 +150,7 @@ body {
   width: 100%;
   height: 115%;
 }
-.food-menu-card-list {
+.food__menu__card__list {
   display: flex;
   flex-wrap: wrap;
   justify-content: space-evenly;
@@ -158,29 +158,29 @@ body {
   margin-top: 2rem;
   width: 100%;
 }
-.food-menu-card {
+.food__menu__card {
   flex-basis: 30%;
   background-color: white;
   border-radius: 6px;
 }
-.food-menu-card-image {
+.food__menu__card__image {
   border-radius: 6px 6px 0px 0px;
   width: 100%;
 }
 
-.food-menu-card-details {
+.food__menu__card__details {
   padding: 1rem;
   text-align: left;
   color: black;
 }
 
-.food-menu-card-title {
+.food__menu__card__title {
   font-size: 1.25rem;
   line-height: 1.75rem;
   color: rgb(0, 0, 0);
   font-weight: 900;
 }
-.view-more-btn {
+.view__more__btn {
   background-image: linear-gradient(to right, #20b351, #8cec9c);
   margin: auto;
   border: none;
@@ -192,14 +192,14 @@ body {
   transition: 0.2s;
   cursor: pointer;
 }
-.view-more-btn:hover {
+.view__more__btn:hover {
   background: linear-gradient(to right, #ffffff 0%, #ffffff 51%, #ffffff 100%);
   transition-duration: 0.4s;
   width: 100%;
   color: black;
 }
 /*retaurant image */
-.restaurant-list-text:before {
+.restaurant__list__text:before {
   content: "";
   background-image: linear-gradient(to right, #20b351, #8cec9c);
   height: 12.5rem;
@@ -210,7 +210,7 @@ body {
   z-index: -2;
   border-radius: 5%;
 }
-.download-txt:before {
+.download__txt:before {
   content: "";
   background-image: linear-gradient(to right, #20b351, #8cec9c);
   height: 8rem;
@@ -222,23 +222,23 @@ body {
   border-radius: 5%;
 }
 
-.restaurant-list-container {
+.restaurant__list__container {
   display: flex;
   justify-content: space-around;
   align-items: center;
   margin-top: 10%;
 }
-.restaurant-list-images-container {
+.restaurant__list__images__container {
   margin-top: 3rem;
 }
 
-.restaurant-list-row1 {
+.restaurant__list__row1 {
   display: flex;
   align-items: baseline;
   justify-content: center;
 }
 
-.restaurant-list-row2 {
+.restaurant__list__row2 {
   margin-top: 10px;
   display: flex;
   align-items: flex-start;
@@ -262,7 +262,7 @@ body {
   height: 200px;
 }
 /*got you*/
-.got-you {
+.got__you {
   background-image: linear-gradient(to right, #20b351, #8cec9c);
   color: white;
   display: inline;
@@ -274,7 +274,7 @@ body {
 .card {
   width: 300px;
 }
-.card-content {
+.card__content {
   text-align: center;
   position: relative;
   padding: 5rem;
@@ -284,15 +284,15 @@ body {
   color: white;
   border-radius: 2rem;
 }
-.card:hover .card-content {
+.card:hover .card__content {
   transform: rotateY(0.5turn);
   -webkit-transform: rotateY(0.5turn);
   -moz-transform: rotateY(0.5turn);
   -ms-transform: rotateY(0.5turn);
   -o-transform: rotateY(0.5turn);
 }
-.card-front,
-.card-back {
+.card__front,
+.card__back {
   position: absolute;
   top: 0;
   bottom: 0;
@@ -304,34 +304,34 @@ body {
   border-radius: 2rem;
 }
 
-.card-front {
+.card__front {
   transform: rotateZ(1turn);
   transform: translateZ(100px);
 }
-.card-back {
+.card__back {
   background-image: linear-gradient(315deg, #69ce75 0%, #50ce7e 74%);
   transform: rotateY(0.5turn);
   color: white;
   font-size: 18px;
 }
-.card-title {
+.card__title {
   font-size: 3rem;
   transform: translateZ(6rem);
 }
-.card-subtitle {
+.card__subtitle {
   transform: translateZ(4rem);
 }
-.card-body {
+.card__body {
   transform: translateZ(3rem);
 }
-.cards-flip {
+.cards__flip {
   display: flex;
   flex-direction: row;
   justify-content: space-around;
   align-items: center;
 }
 /* update section */
-.update-txt:before {
+.update__txt:before {
   content: "";
   background-image: linear-gradient(to right, #20b351, #8cec9c);
   height: 4rem;
@@ -348,7 +348,7 @@ body {
   align-items: center;
   justify-content: center;
 }
-.update-input {
+.update__input {
   height: 40px;
   width: 290px;
   border: 2px solid rgb(0, 206, 17);
@@ -364,12 +364,12 @@ body {
   margin: 0 20%;
   margin-top: 10%;
 }
-.download-img {
+.download__img {
   height: 400px;
   width: 250px;
   cursor: pointer;
 }
-.downloader-app {
+.downloader__app {
   display: flex;
   justify-content: space-between;
   align-items: center;
@@ -392,7 +392,7 @@ body {
   justify-content: space-around;
   line-height: 20px;
 }
-.foody-foot {
+.foody__foot {
   color: white;
   font-size: 50px;
   font-family: cursive;
@@ -409,31 +409,31 @@ body {
   cursor: pointer;
 }
 @media only screen and (max-width: 1445px) {
-  .hero-image-container:before {
+  .hero__image__container:before {
     display: none;
   }
 }
 @media only screen and (max-width: 1195px) {
-  .hero-container {
+  .hero__container {
     margin-top: 20%;
   }
-  .text-primary {
+  .text__primary {
     color: rgb(0, 0, 0);
     font-size: 25px;
   }
-  .hero-image-container:before {
+  .hero__image__container:before {
     display: none;
   }
   #txt:before {
     display: none;
   }
-  .update-txt:before {
+  .update__txt:before {
     display: none;
   }
-  .download-txt:before {
+  .download__txt:before {
     display: none;
   }
-  .restaurant-list-text:before {
+  .restaurant__list__text:before {
     display: none;
   }
   .restaurant1,
@@ -449,78 +449,78 @@ body {
     width: 200px;
     height: 150px;
   }
-  .cards-flip {
+  .cards__flip {
     flex-direction: column;
   }
-  .card-content {
+  .card__content {
     margin: 1rem;
   }
 }
 @media only screen and (max-width: 770px) {
-  .hero-container {
+  .hero__container {
     flex-direction: column;
     margin-top: 35%;
     justify-content: center;
   }
-  .hero-image-container {
+  .hero__image__container {
     margin-top: 10%;
     height: 300px;
     width: 300px;
   }
-  .hero-image-container:before {
+  .hero__image__container:before {
     display: none;
   }
-  .video-food:before {
+  .video__food:before {
     display: none;
   }
-  .img-food {
+  .img__food {
     margin: auto;
     height: 300px;
     width: 300px;
   }
-  .yt-video-container {
+  .yt__video__container {
     flex-direction: column;
   }
-  .text-primary {
+  .text__primary {
     color: black;
   }
 
   #txt:before {
     display: none;
   }
-  .food-menu-card-list {
+  .food__menu__card__list {
     flex-direction: column;
   }
-  .foody-logo {
+  .foody__logo {
     height: 5rem;
     margin-left: -20%;
   }
-  .btn-primary {
+  .btn__primary {
     height: 35px;
     font-size: 13px;
     line-height: 12px;
   }
-  .food-list-container-diagonal {
+  .food__list__container__diagonal {
     display: none;
   }
-  .food-list-container {
+  .food__list__container {
     margin-top: -10%;
     width: 70%;
     margin: auto;
   }
-  .restaurant-list-container {
+  .restaurant__list__container {
     margin-top: 0%;
   }
-  .update-txt:before {
+  .update__txt:before {
     display: none;
   }
-  .download-txt:before {
+  .download__txt:before {
     display: none;
   }
-  .restaurant-list-container {
+  .restaurant__list__container {
     flex-direction: column;
   }
-  .restaurant-list-text:before {
+  .restaurant__list__text:before {
     display: none;
   }
   .restaurant1,
@@ -536,7 +536,7 @@ body {
     width: 180px;
     height: 160px;
   }
-  .download-img {
+  .download__img {
     height: 270px;
     width: 150px;
   }
@@ -553,35 +553,35 @@ body {
   .update {
     flex-direction: column;
   }
-  .food-ad {
+  .food__ad {
     height: 300px;
     width: 300px;
   }
-  .video-food:before {
+  .video__food:before {
     height: 290px;
     width: 300px;
   }
-  .text-primary {
+  .text__primary {
     font-size: 1.5rem;
   }
   .txt {
     font-size: 0.8rem;
     margin: auto;
   }
-  .btn-primary {
+  .btn__primary {
     margin: 6px;
     padding: 10px 15px;
   }
-  .foody-foot {
+  .foody__foot {
     font-size: 30px;
   }
   .list ul li {
     font-size: 13px;
   }
-  .cards-flip {
+  .cards__flip {
     flex-direction: column;
   }
-  .card-content {
+  .card__content {
     margin: 1rem;
   }
   h1 {
