@@ -261,6 +261,71 @@ body {
   width: 300px;
   height: 200px;
 }
+/*got you*/
+.got-you {
+  background-image: linear-gradient(to right, #43e97b 0%, #38f9d7 100%);
+  color: white;
+  display: inline;
+  padding-left: 1rem;
+  padding-right: 1rem;
+  border-radius: 10px;
+}
+/*card flips*/
+.card {
+  width: 300px;
+}
+.card-content {
+  text-align: center;
+  position: relative;
+  padding: 5rem;
+  transition: transform 2s;
+  background-image: linear-gradient(to right, #43e97b 0%, #38f9d7 100%);
+  transform-style: preserve-3d;
+  color: white;
+  border-radius: 2rem;
+}
+.card:hover .card-content {
+  transform: rotateY(0.5turn);
+}
+.card-front,
+.card-back {
+  position: absolute;
+  top: 0;
+  bottom: 0;
+  left: 0;
+  right: 0;
+  padding: 2rem;
+  backface-visibility: hidden;
+  transform-style: preserve-3d;
+  border-radius: 2rem;
+}
+
+.card-front {
+  transform: rotateZ(1turn);
+  transform: translateZ(100px);
+}
+.card-back {
+  background-color: rgb(88, 221, 132);
+  transform: rotateY(0.5turn);
+  color: white;
+  font-size: 17px;
+}
+.card-title {
+  font-size: 3rem;
+  transform: translateZ(6rem);
+}
+.card-subtitle {
+  transform: translateZ(4rem);
+}
+.card-body {
+  transform: translateZ(3rem);
+}
+.cards-flip {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-around;
+  align-items: center;
+}
 /* update section */
 .update-txt:before {
   content: "";
@@ -380,6 +445,12 @@ body {
     width: 200px;
     height: 150px;
   }
+  .cards-flip {
+    flex-direction: column;
+  }
+  .card-content {
+    margin: 1rem;
+  }
 }
 @media only screen and (max-width: 770px) {
   .hero-container {
@@ -406,7 +477,7 @@ body {
     flex-direction: column;
   }
   .text-primary {
-    color: rgb(76, 77, 76);
+    color: black;
   }
   #txt:before {
     display: none;
@@ -428,9 +499,11 @@ body {
   }
   .food-list-container {
     margin-top: -10%;
+    width: 70%;
+    margin: auto;
   }
   .restaurant-list-container {
-    margin-top: -14%;
+    margin-top: 0%;
   }
   .update-txt:before {
     display: none;
@@ -498,5 +571,12 @@ body {
   }
   .list ul li {
     font-size: 13px;
+  }
+
+  .cards-flip {
+    flex-direction: column;
+  }
+  .card-content {
+    margin: 1rem;
   }
 }
