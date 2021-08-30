@@ -38,7 +38,7 @@ body {
   align-items: center;
 }
 .btn-primary {
-  background-image: linear-gradient(to right, #43e97b 0%, #38f9d7 100%);
+  background-image: linear-gradient(to right, #20b351, #8cec9c);
   margin: 10px;
   padding: 15px 45px;
   text-align: center;
@@ -86,7 +86,7 @@ body {
 
 .hero-image-container:before {
   content: "";
-  background-image: linear-gradient(to right, #43e97b 0%, #38f9d7 100%);
+  background-image: linear-gradient(to right, #20b351, #8cec9c);
   height: 25rem;
   position: absolute;
   width: 25rem;
@@ -114,7 +114,7 @@ body {
 }
 .video-food:before {
   content: "";
-  background-image: linear-gradient(to right, #43e97b 0%, #38f9d7 100%);
+  background-image: linear-gradient(to right, #20b351, #8cec9c);
   height: 330px;
   position: absolute;
   width: 430px;
@@ -125,7 +125,7 @@ body {
 
 #txt:before {
   content: "";
-  background-image: linear-gradient(to right, #43e97b 0%, #38f9d7 100%);
+  background-image: linear-gradient(to right, #20b351, #8cec9c);
   height: 8rem;
   position: absolute;
   width: 26rem;
@@ -141,7 +141,7 @@ body {
   padding-top: 18px;
 }
 .food-list-container-diagonal {
-  background-image: linear-gradient(to right, #43e97b 0%, #38f9d7 100%);
+  background-image: linear-gradient(to right, #20b351, #8cec9c);
   position: absolute;
   left: 0px;
   top: 0px;
@@ -181,7 +181,7 @@ body {
   font-weight: 900;
 }
 .view-more-btn {
-  background-image: linear-gradient(to right, #43e97b 0%, #38f9d7 100%);
+  background-image: linear-gradient(to right, #20b351, #8cec9c);
   margin: auto;
   border: none;
   height: 40px;
@@ -201,7 +201,7 @@ body {
 /*retaurant image */
 .restaurant-list-text:before {
   content: "";
-  background-image: linear-gradient(to right, #43e97b 0%, #38f9d7 100%);
+  background-image: linear-gradient(to right, #20b351, #8cec9c);
   height: 12.5rem;
   position: absolute;
   width: 38rem;
@@ -212,7 +212,7 @@ body {
 }
 .download-txt:before {
   content: "";
-  background-image: linear-gradient(to right, #43e97b 0%, #38f9d7 100%);
+  background-image: linear-gradient(to right, #20b351, #8cec9c);
   height: 8rem;
   position: absolute;
   width: 25rem;
@@ -263,7 +263,7 @@ body {
 }
 /*got you*/
 .got-you {
-  background-image: linear-gradient(to right, #43e97b 0%, #38f9d7 100%);
+  background-image: linear-gradient(to right, #20b351, #8cec9c);
   color: white;
   display: inline;
   padding-left: 1rem;
@@ -279,7 +279,7 @@ body {
   position: relative;
   padding: 5rem;
   transition: transform 2s;
-  background-image: linear-gradient(to right, #43e97b 0%, #38f9d7 100%);
+  background-image: linear-gradient(315deg, #63d471 0%, #328652 74%);
   transform-style: preserve-3d;
   color: white;
   border-radius: 2rem;
@@ -309,10 +309,10 @@ body {
   transform: translateZ(100px);
 }
 .card-back {
-  background-color: rgb(88, 221, 132);
+  background-image: linear-gradient(315deg, #69ce75 0%, #50ce7e 74%);
   transform: rotateY(0.5turn);
   color: white;
-  font-size: 17px;
+  font-size: 18px;
 }
 .card-title {
   font-size: 3rem;
@@ -333,7 +333,7 @@ body {
 /* update section */
 .update-txt:before {
   content: "";
-  background-image: linear-gradient(to right, #43e97b 0%, #38f9d7 100%);
+  background-image: linear-gradient(to right, #20b351, #8cec9c);
   height: 4rem;
   position: absolute;
   width: 20rem;
@@ -384,7 +384,7 @@ body {
 /*footer section*/
 .footer {
   height: 180px;
-  background: linear-gradient(to right, #43e97b 0%, #38f9d7 100%);
+  background-image: linear-gradient(to right, #20b351, #8cec9c);
   margin-top: 10%;
   display: flex;
   flex-direction: row;
@@ -578,7 +578,6 @@ body {
   .list ul li {
     font-size: 13px;
   }
-
   .cards-flip {
     flex-direction: column;
   }
