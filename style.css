@@ -460,6 +460,7 @@ body {
   .hero-container {
     flex-direction: column;
     margin-top: 35%;
+    justify-content: center;
   }
   .hero-image-container {
     margin-top: 10%;
@@ -483,6 +484,7 @@ body {
   .text-primary {
     color: black;
   }
+
   #txt:before {
     display: none;
   }
@@ -582,5 +584,11 @@ body {
   }
   .card-content {
     margin: 1rem;
+  }
+  h1 {
+    font-size: 1.5rem;
+  }
+  h2 {
+    font-size: 1.2rem;
   }
 }
