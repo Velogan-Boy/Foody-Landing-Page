@@ -273,6 +273,8 @@ body {
 /*card flips*/
 .card {
   width: 300px;
+  perspective:1500px;
+  -moz-perspective: 1500px;
 }
 .card__content {
   text-align: center;
@@ -283,6 +285,7 @@ body {
   transform-style: preserve-3d;
   color: white;
   border-radius: 2rem;
+  
 }
 .card:hover .card__content {
   transform: rotateY(0.5turn);
